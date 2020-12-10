@@ -40,3 +40,13 @@ $(window).scroll(function(){
 
 });
 
+
+const profPict = document.getElementById('profPict');
+
+profPict.addEventListener('mouseenter', () => {
+	profPict.setAttribute('src','img/Thumbnail.jpg');
+})
+
+profPict.addEventListener('mouseleave', () => {
+	profPict.setAttribute('src','img/Profile.jpg');
+})
